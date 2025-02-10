@@ -1,0 +1,142 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    background: url('./img/Anthem_Coda_Banner.webp') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+.dorr-page {
+    background: url('./img/Anthem_Javelin_Banner.webp') no-repeat center center/cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 165, 0, 0.7);
+}
+.level2-page {
+    background: url('./img/Location_Region_Northern_Bastion_Header_Image.webp') no-repeat center center/cover;
+}
+
+.javelin-list {
+    text-align: left;
+    font-size: 1.2rem;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.javelin-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.btn.danger {
+    background: red;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.8);
+}
+
+.btn.danger:hover {
+    background: darkred;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 1);
+}
+.wearpoint-page {
+    background: url('./img/Wyvern_1.webp') no-repeat center center/cover;
+}
+
+.weapon-list {
+    text-align: left;
+    font-size: 1.2rem;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.weapon-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.btn.disabled {
+    background: gray;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+.btn.danger {
+    background: red;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.8);
+}
+
+.btn.danger:hover {
+    background: darkred;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 1);
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    color: #ff9800;
+    text-shadow: 2px 2px 10px #000;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #ff5722;
+    text-shadow: 1px 1px 5px #000;
+}
+
+.highlight {
+    color: #ff9800;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(255, 87, 34, 0.9);
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: linear-gradient(90deg, #ff9800, #ff5722);
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(255, 87, 34, 0.8);
+}
+
+.btn:hover {
+    background: linear-gradient(90deg, #ff5722, #ff9800);
+    box-shadow: 0 0 15px rgba(255, 152, 0, 1);
+}
